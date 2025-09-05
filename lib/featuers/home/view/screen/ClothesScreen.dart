@@ -80,12 +80,10 @@ class _ProductCard extends StatelessWidget {
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
         onTap: () {
-          // هنا ممكن تفتح تفاصيل المنتج
         },
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // صورة
             ClipRRect(
               borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
               child: Image.network(
